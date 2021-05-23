@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cim h1 {
+    font-weight: bold;
+    font-size: 3em;
+    font-stretch: extra-expanded;
+    margin: 15px 0px 0px 0px;
+}
+#cim {
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0px;
+}
+#cim h1 img {
+    vertical-align: middle;
+    padding: 0px 5px 10px 0px;
+}
+#navigacio nav {
+    display: block;
+    background-color: darkcyan;
+    width: 50%;
+    text-align: center;
+    padding: 12px;
+    border-radius: 10px;
+    align-items: center;
+    margin: auto;
+}
+#navigacio {
+    margin: auto;
+    vertical-align: middle;
+}
+#navigacio nav a {
+    padding: 0px 15% 0px 0px;
+    text-decoration: none;
+    color: gainsboro;
+}
+#navigacio nav a:hover {
+    color: white;
+}
+#navigacio nav a:last-child {
+    padding: 0px;
+}
+#content {
+    width: 50%;
+    margin: auto;
+    background-color: lavender;
+    border-radius: 10px;
+}
+.oldalcim {
+    font-size:30px;
+    padding: 10px 0px 10px 0px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+#content img {
+    text-align: center;
+}
+.text {
+    padding: 0 5px 20px 5px;
+    margin: 5px 0px 0px 0px;
+}
+.tab {
+    border: 1px solid black;
+    margin: auto;
+    align-items: center;
+}
+.tab td, th {
+    border: 1px solid black;
+    text-align: center;
+    height: 40px;
+    width: 10%;
+}
+.tab th {
+    background-color: lightskyblue;
+}
+.mobildiv {
+    max-width: 160px;
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: gray 1px 1px;
+}
+.mobilname {
+    font-size: 16px;
+    color:black;
+    font-weight: bold;
+    margin: 0px 1px 1px 1px;
+}
+.mobildes {
+    margin: 2px 1px 1px 1px;
+    font-size: small;
+}
+.vasarlas {
+    background-color: green;
+    color: white;
+    margin: 10px;
+    padding: 0;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+}
+.vasarlas img {
+    vertical-align: middle;
+    padding: 2px 3px 0px 2px;
+    margin: 0;
+}
+.ar {
+    color: red;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+}
+.vasarlas:hover {
+    background-color: rgb(41, 179, 37);
+}
+.telefonok {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.marka {
+    margin: 3px 0px 0px 5px;
+    font-weight: bold;
+}
+.uzenet input, label {
+    display:block;
+}
+.uzenet label {
+    margin: 5px 0px 2px 0px;
+    font: italic;
+}
+.uzenet input[type="submit"] {
+    background-color: darkcyan;
+    color: gainsboro;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px 0 0 0;
+}
+.uzenet input[type="submit"]:hover {
+    color: white;
+}
+.credit {
+    font-size: x-small;
+    margin: 3px;
+}
